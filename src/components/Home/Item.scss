@@ -1,0 +1,55 @@
+.item {
+   margin-top: 15px;
+   border: 1px solid #C9C4B0;
+   outline: 1px solid #DFDBCC;
+
+   img {
+      width: 100%;
+      max-width: 100%;
+   }
+   .title {
+      background: #fff;
+      padding: 0 15px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+       -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding-bottom: 7px;
+      h3 {
+         text-align: right;
+         font-size: 20px;
+         font-weight: normal;
+         color: #EC8757;
+         padding-top: 15px;
+      }
+      h4 {
+         text-align: right;
+         font-size: 14px;
+         font-weight: normal;
+         color: #EC8757;
+         padding-top: 10px;
+      }
+      h2 {
+         font-weight: normal;
+         padding-top: 8px;
+         font-size: 13px; 
+         p {
+            line-height: 18px;
+            color: #888;
+            &:first-child {
+               color: #444;
+            }
+            &.last {
+               font-size: 12px;
+               color: #999
+            }
+         }
+      }
+   }
+}

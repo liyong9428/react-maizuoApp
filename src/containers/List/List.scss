@@ -1,0 +1,30 @@
+.list2 {
+   background: #F9F8F3;
+   padding: 15px;
+   padding-top: 50px;
+   .tabs {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 44px; 
+      line-height: 44px;
+      text-align: center;
+      border-bottom: 1px solid #F07409;
+      color: #666;
+      font-size: 16px;
+      b {
+         -webkit-box-flex: 1;
+         -webkit-flex: 1 1 auto;
+         -moz-box-flex: 1;
+         -ms-flex: 1 1 auto;
+         flex: 1 1 auto;
+         font-weight: normal;
+         &.on {
+            color: #f07409;
+            border-bottom: 2px solid #f07409;
+         }
+      }
+   }
+}

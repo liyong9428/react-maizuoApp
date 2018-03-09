@@ -1,0 +1,31 @@
+.card {
+  background: #F9F8F3;
+  padding: 15px;
+  padding-top: 50px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  .tabs {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-bottom: 1px solid #F07409;
+    color: #666;
+    font-size: 16px;
+    b {
+      width: 50%;
+      font-weight: normal;transition: all 0.1s;
+      &.on {
+        color: #f07409;
+        border-bottom: 3px solid #f07409;
+      }
+    }
+  }
+}

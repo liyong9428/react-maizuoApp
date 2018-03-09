@@ -1,0 +1,42 @@
+.detail {
+   padding-top: 50px;
+   background: #EDEADC;
+   img {
+      width: 100%;
+      max-width: 100;
+   }
+   .box {
+      padding: 20px;
+      color: #444;
+      h2 {
+         font-weight: normal;
+         padding-bottom: 10px;
+      }
+      p {
+         font-size: 13px;
+         height: 20px;
+         overflow: hidden;
+         line-height: 20px;
+         padding-bottom: 10px;
+      }
+      .text {
+         width: 100%;
+         overflow: hidden;
+         line-height: 20px;
+      }
+      &>span {
+         background: #F28831;
+         width: 120px; 
+         height: 36px;
+         position: fixed;
+         bottom: 20px;
+         border-radius: 50px;
+         text-align: center;
+         line-height: 36px;
+         color: #fff;
+         font-size: 14px;
+         left: 50%;
+         transform: translateX(-50%);
+      }
+   }
+}
