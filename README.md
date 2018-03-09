@@ -1,6 +1,6 @@
 # react-maizuoApp
 ## 使用 generator-react-webpack 构建工具  需要yeoman的支持。
-## 利用 react + react-router4 + sass + material-ui 的仿卖座网app实例
+### 利用 react + react-router4 + sass + material-ui 的仿卖座网app实例
 
 
 ### [generator-react-webpack的地址](https://github.com/react-webpack-generators/generator-react-webpack)
