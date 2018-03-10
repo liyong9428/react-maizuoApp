@@ -14,6 +14,7 @@ class Home extends Component {
          nowplay,
          forthcom
       }
+      window.scrollTo(0,0);
    }
    render() {
       return (

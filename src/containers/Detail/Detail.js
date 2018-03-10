@@ -7,11 +7,7 @@ class Detail extends Component {
       this.state = {
          item: props.location.state
       }
-      window.title1 = props.location.state.name;
-   }
-   componentWillMount(){
-     
-      document.documentElement.scrollTop = 0;
+      window.scrollTo(0,0);
    }
    render() {
       return (

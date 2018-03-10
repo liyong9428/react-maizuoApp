@@ -36,13 +36,16 @@ ul, ol { list-style: none; }
 
 /* 重置文本格式元素 */
 a { text-decoration: none; }
-a:hover { text-decoration: underline; }
 
 abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
   border-bottom: 1px dotted;
   cursor: help;
 }
-
+* {
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+   -webkit-touch-callout: none; 
+   -ms-touch-action: none;
+}
 q:before, q:after { content: ''; }
 
 /* 重置表单元素 */
@@ -67,3 +70,58 @@ hr {
 
 /* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
 html { overflow-y: scroll; }
+img { 
+   border: 0; 
+   max-width: 100% !important; 
+   vertical-align: middle; 
+}
+
+address, caption, cite, code, i, em, strong{ 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+ol, ul { 
+   list-style: none; 
+}
+
+a { 
+background: transparent; 
+text-decoration: none; 
+-webkit-tap-highlight-color: transparent; 
+color: #0088cc; 
+ 
+}
+
+a:active { 
+   outline: 0; 
+} 
+a:active { 
+   color: #006699; 
+}
+
+h1, h2, h3, h4, h5, h6 { 
+   font-weight: normal; 
+   font-size: 100%; 
+}
+
+button, input, select, textarea { 
+   margin: 0; 
+   font: inherit; 
+   color: inherit; 
+   outline: none; 
+   -webkit-appearance: none; 
+   border-radius: 0; 
+}
+input:focus {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-modify: read-write-plaintext-only;
+}
+
+input::-ms-clear {
+  display: none;
+}
+textarea {
+  resize: none;
+}
+

@@ -14,12 +14,13 @@ class List extends Component {
          nowplay,
          forthcom
       }
+      window.scrollTo(0,0);
    }
    componentWillMount(){
       if(this.props.match.params.n && this.props.match.params.n=='ji'){
          this.setState({current: 'two'})
       }
-      document.documentElement.scrollTop = 0;
+     
    }
    render() {
       return (

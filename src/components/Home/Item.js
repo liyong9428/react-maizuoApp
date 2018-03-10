@@ -9,7 +9,7 @@ class Item extends Component {
       return (
          <div className='item'>
            <Link to={{pathname:'/detail',state:this.props.item}} onClick={()=>{window.title1=this.props.item.name}}>
-            <img src={this.props.item.cover.origin} width="100%"/>
+            <img src={this.props.item.cover.origin || '../../styles/timg.jpg'} width="100%"/>
             <div className="title">
                <h2>
                   <p>{this.props.item.name}</p>

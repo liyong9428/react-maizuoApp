@@ -10,9 +10,7 @@ class List extends Component {
       this.state = {
          current: 'one'
       }
-   }
-   componentWillMount() {
-      document.documentElement.scrollTop = 0;
+      window.scrollTo(0,0);
    }
    render() {
       return (

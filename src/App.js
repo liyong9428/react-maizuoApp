@@ -25,12 +25,13 @@ class App extends React.Component {
       this.state = {
          open: false
       }
+      window.scrollTo(0,0);
    }
    handleToggle=()=>this.setState({open: !this.state.open})
    handleFalse=()=>this.setState({open: false})
    render() {
       return (
-         <Router basename='/dist'>
+         <Router basename='/react-maizuoApp/dist'>
             <div>
                {/* 头部组件 */}
                <HeadBar toggle={this.handleToggle} off={this.handleFalse}/>
